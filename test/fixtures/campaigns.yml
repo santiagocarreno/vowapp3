@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  name: MyString
+  date_start: 2015-02-14
+  date_end: 2015-02-14
+  days: MyString
+  hours: MyString
+  status_campaign: MyString
+
+two:
+  id: 1
+  name: MyString
+  date_start: 2015-02-14
+  date_end: 2015-02-14
+  days: MyString
+  hours: MyString
+  status_campaign: MyString

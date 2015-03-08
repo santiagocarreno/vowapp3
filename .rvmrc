@@ -1,0 +1,5 @@
+rvm use 2.2.0@vow.nu
+
+#rvm gemset create vow.nu	
+
+#Hay que salirse a la carpeta anterior y volver a entrar al proyecto para que pregunte si #le aplica el rvm

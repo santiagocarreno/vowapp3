@@ -1,0 +1,48 @@
+<!--Aca se modifica el view del ingresa/inciar sesion que es lo mismo del sign in -->
+
+<body div class="post">
+
+
+<h2 class="col-sm-offset-2 col-sm-10">Iniciar Sesión</h2>
+
+<%= form_for(resource, as: resource_name, url: session_path(resource_name), html:{class: 'form-horizontal'}) do |f| %>
+  <div class='form-group'>
+    <%= f.label :email, class: 'col-sm-2 control-label' %><br />
+    <div class='col-sm-10'>
+    <%= f.email_field :email, autofocus: true %>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <%= f.label :password, class: 'col-sm-2 control-label' %><br />
+    <div class='col-sm-10'>
+    <%= f.password_field :password, autocomplete: "off", class: 'form-contro', placeholder: 'Password'  %>
+    </div>
+  </div>
+
+  <div class="actions form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+  <% if devise_mapping.rememberable? -%>
+    <div class="field">
+      <%= f.check_box :remember_me %>
+      <%= f.label :remember_me %>
+    </div>
+  <% end -%>
+    </div>
+  </div>
+
+  <div class="actions form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+    <%= f.submit "Log in", class: 'btn btn-success' %>
+  </div>
+    </div>
+<% end %>
+
+  <div class="actions form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+<%= render "devise/shared/links" %>
+  </div>
+    </div>
+
+</body>
+

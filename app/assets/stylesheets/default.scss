@@ -1,0 +1,337 @@
+#grad{
+
+  background: -webkit-linear-gradient(left,rgba(0,90,160,0),rgba(1,157,206,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgba(0,90,160,0),rgba(1,157,206,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgba(0,90,160,0),rgba(1,157,206,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(0,90,160,0), rgba(1,157,206,1)); /*Standard*/
+  position: relative;
+  /*background-color: rgb(0,145,210);*/
+  height: 900px;
+  
+} 
+
+@media (max-width: 100px){
+  #grad{
+    height: 200px;
+  }
+}
+
+#primeracol{
+
+position:absolute;
+margin: auto;
+top: 40%;
+left: -2%;
+
+}
+
+#segundacol{
+
+position:absolute;
+margin: auto;
+top: 40;
+right: 0%;
+
+}
+
+#vowlogo{
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    top: 40%;
+    left: 30%;
+}
+
+#botonv{
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 280%;
+  position: absolute;
+  margin: auto;
+  height: 7%;
+  width: 20%;
+  top: 43.5%;
+  left: 8%; 
+
+}
+
+#botonv2{
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 280%;
+  position: absolute;
+  margin: auto;
+  height: 10;
+  width: 20%;
+  top: 43.5%;
+  left: 67.5%; 
+
+}
+
+#fundaciones{
+
+      font-family: 'Montserrat', sans-serif;
+      font-size:150%;
+      color: #FFFFFF;
+
+}
+
+#donantes{
+
+      font-family: 'Montserrat', sans-serif;
+      font-size:150%;
+      color: #FFFFFF;
+
+}
+
+#nosotros{
+
+      font-family: 'Montserrat', sans-serif;
+      font-size:150%;
+      color: #FFFFFF;
+
+}
+
+#registrate a{
+
+      font-family: 'Montserrat', sans-serif;
+      font-size:150%;
+      color: #FFFFFF;
+
+}
+
+#ingresa a{
+
+      font-family: 'Montserrat', sans-serif;
+      font-size:150%;
+      color: #FFFFFF;
+
+}
+
+
+#post {
+background-image: url(http://s6.postimg.org/63zf2nzqp/fondogeneral.jpg);
+background-size: 2100px;
+}
+
+/* Nuevos codigos CSS */
+
+/*
+Theme Name: Simple Parallax Website
+Description: Simple Parallax Scrolling Effect
+Author: Samuel Dalusung
+*/
+
+/*= GENERAL STYLING
+--------------------------------------------------------*/
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 960px; }
+.clear { clear: both; }
+/*a.lpanel { float: left; color: #e1e1e1; font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
+a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
+
+a.lpanel:hover{ color: #fff; }
+a.rpanel:hover{ color: #fff; }
+/*= HEADER & NAVIGATION
+--------------------------------------------------------*/
+
+#header { 
+  width: 100%; 
+  /*background: url('../img/header-bg.png');*/
+  height: 80px;   
+  position: fixed;
+  margin-top: 0px;
+}
+
+#nav { width: 410px; float: right; margin-top: 20px; }
+/*#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }*/
+#nav ul{
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+  list-style: none; 
+}
+
+#nav li{
+  margin-top: 9px;  
+  float: left;
+  padding-left: 21px;
+}
+
+/* Aca se modifican los parametros de las fonts en el menu principal (Fundaciones. Donantes, Nosotros, etc)*/
+#nav li a { color: #fff; opacity:0.6; font-size: 180%; text-decoration: none; font-family: 'Montserrat'; }
+#nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
+#nav li a:hover { color: #fff; opacity:1;  }
+
+
+
+/*= QUOTES AND SOME ELEMENTS
+--------------------------------------------------------*/
+.quotes {   
+ font-family: 'Goudy Bookletter 1911', serif;
+   font-weight: normal;
+   font-size: 30px;
+  text-align: left;
+  margin: 50px auto;
+}
+
+#vowlogo{
+
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    top: 41.5%;
+    left: 34%;
+}
+
+#logito2{
+
+    position: absolute;
+    width: 120%;
+    margin: auto;
+    top: 104.5%;
+    left: 44.5%;
+}
+
+#logito3{
+
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    top: 207.5%;
+    left: 41%;
+}
+
+#logito4{
+
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    top: 286%;
+    left: 41%;
+}
+ 
+#videito1{
+    
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    top: 126%;
+    left: 31.5%;
+    padding: 0 !important;
+}
+
+#frases{
+
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    top: 332%;
+    left: 12.5%;
+}  
+
+#barranegra{
+
+    position: absolute;
+    width: 10px;
+    margin: auto;
+    top: 385.6%;
+    left: 0%;
+}
+
+#escribenos{
+
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    top: 393.7%;
+    left: 0%;
+}
+
+
+/*= BUTTONS
+--------------------------------------------------------*/
+
+#botonfundacion{
+
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    top: 46%;
+    left: 22%;
+
+}
+
+#botondonante{
+    /*Cambiar por un boton para que no aparezca imagen blanca */
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    top: 46%;
+    left: 65%;
+} 
+
+
+/*= SLIDES STYLING
+--------------------------------------------------------*/
+
+#slide1, #slide2{ width: 100%; }
+#slide1{
+  background:url('slidevow1.jpg') 50% 0 no-repeat fixed;
+  /*color: #fff;*/
+  height: 1000px; /* 400px; */
+  margin-right: 0px; 
+  padding: 0 !important;
+  background-size: cover;
+ 
+}
+
+#slide2{
+  background:url('slidevow2.jpg') 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 998px;  /* 300px; */
+  margin-right: 0px; 
+  padding: 0 !important;
+  overflow: hidden;
+  
+}
+
+#slide3{
+  background:url('slidevow3.jpg') 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 1000px;
+  padding: 170px 0 0 0; 
+  background-size: cover;
+}
+
+#slide4{
+  background: url('slidevow2.jpg') 50% 0 no-repeat fixed;
+  background-color: #fff;
+  color: #333333;
+  height: 998px;
+  padding: 200px 0;
+}
+
+
+/*= FOOTER 
+--------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
